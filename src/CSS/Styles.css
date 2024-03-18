@@ -204,3 +204,12 @@ nav ul li a {
         margin-bottom: 10px;
     }
 }
+@media (max-width: 696px){
+    .about-us-cover-section{
+        padding-left: 0rem;
+        /* align-items: center; */
+    }
+    .aboutus-title{
+        font-size: 40px;
+    }
+}
