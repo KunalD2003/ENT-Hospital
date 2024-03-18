@@ -215,3 +215,9 @@ btn-group>.btn-group:not(:first-child)>.btn,
         margin: auto;
     }
 }
+@media (max-width: 371px){
+    .doctor-cover-section{
+        padding-left: 1rem;
+        /* align-items: center; */
+    }
+}
