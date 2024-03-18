@@ -146,36 +146,3 @@ div iframe {
 textarea {
     resize: vertical;
 }
-
-footer {
-    background-color: #06174a;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-* Footer styles */
-.page-footer {
-    background-color: #5532b8; /* Dark background color for footer */
-    color: #e2dada; /* White text color */
-    padding: 20px 0;
-    text-align: center; /* Center text */
-}
-
-.page-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-.page-footer ul li {
-    margin-bottom: 20px;
-}
-
-.page-footer ul li a {
-    color: #fff; /* White color for footer links */
-    text-decoration: none;
-}
-
-.footer-copyright {
-    color: #0a034b; /* Light gray text color */
-    padding: 10px 0; /* Adjusted padding */
-}

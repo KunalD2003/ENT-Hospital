@@ -1,0 +1,193 @@
+.footer-class {
+    position: relative;
+    overflow: hidden;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #004085;
+    border: 1px solid #e5e7eb;
+    border-top-width: 2px;
+    border-top-color: #000;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.socials {
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+    border: 1px solid white;
+    padding-top: 1px;
+    padding-left: 6px;
+    background-color: #00B0FF;
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-icon {
+    color: white
+}
+
+.footer-minipara {
+    display: flex;
+    flex-wrap: wrap;
+    width: 87%;
+}
+
+.social-container {
+    flex-wrap: wrap;
+}
+
+.logo-copyright {
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.logo-div {
+    margin-bottom: 1rem;
+    /* Converted from mb-4 in Tailwind CSS */
+    display: inline-flex;
+    /* Converted from inline-flex in Tailwind CSS */
+    align-items: center;
+    /* Converted from items-center in Tailwind CSS */
+    margin-left: 0.75rem;
+    /* Converted from ml-3 in Tailwind CSS */
+    color: #fff;
+    /* Converted from text-white in Tailwind CSS */
+    font-weight: 800;
+    /* Converted from font-extrabold in Tailwind CSS */
+    font-family: serif;
+    /* Converted from font-serif in Tailwind CSS */
+    font-size: 2.25rem;
+}
+
+.footer-logo-img {
+    height: 40%;
+    width: 40%;
+}
+
+.copyright-div {
+    font-size: 0.875rem;
+    /* Converted from text-sm in Tailwind CSS */
+    color: #fff;
+}
+
+.rest-section {
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+.column-1 {
+    height: 100%;
+}
+
+.column-heading {
+    letter-spacing: 1px;
+    /* Converted from tracking-px in Tailwind CSS */
+    margin-bottom: 1.75rem;
+    /* Converted from mb-7 in Tailwind CSS */
+    font-size: 0.875rem;
+    /* Converted from text-sm in Tailwind CSS */
+    font-weight: 600;
+    /* Converted from font-semibold in Tailwind CSS */
+    text-transform: uppercase;
+    /* Converted from uppercase in Tailwind CSS */
+    color: #00B0FF;
+    /* Converted from text-white in Tailwind CSS */
+}
+
+.column-list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+}
+
+.rest-section ul {
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.column-list .bx {
+    margin-right: 20px;
+    line-height: unset;
+}
+
+.column-link {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    /* Equivalent to text-base in Tailwind CSS */
+    font-weight: 500;
+    /* Equivalent to font-medium in Tailwind CSS */
+    color: white;
+    text-decoration: none;
+}
+
+.contact-icon {
+    font-size: 1.3rem;
+    color: #00B0FF;
+}
+
+.column-link:hover {
+    color: #00B0FF;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .logo-copyright,
+    .rest-section {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo-copyright {
+        width: 41.666667%;
+    }
+
+    .rest-section {
+        width: 16.666667%;
+    }
+}
+
+@media (max-width: 346px) {
+    .footer-class {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .rest-section{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .rest-section ul {
+        text-align: center;
+    }
+
+    .column-list {
+        display: flex;
+        justify-content: center;
+        /* Ensures list items are displayed inline */
+        margin-bottom: 0.5rem;
+        /* Adjust margin as needed */
+    }
+
+    .column-heading {
+        text-align: center;
+    }
+}
