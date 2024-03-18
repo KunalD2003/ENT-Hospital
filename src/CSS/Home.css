@@ -1,113 +1,130 @@
-body{margin-top:20px;
-    background:#f5f5f5;
-    }
-    .blog-post {
-      -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
-      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
-    }
-    
-    .blog-post .blog-img .overlay,
-    .blog-post .blog-img .post-meta {
-      position: absolute;
-      opacity: 0;
-      -webkit-transition: all 0.9s ease;
-      transition: all 9s ease;
-    }
-    
-    .blog-post .blog-img .overlay {
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
-    
-    .blog-post .blog-img .post-meta {
-      bottom: 5%;
-      right: 5%;
-      z-index: 1;
-    }
-    
-    .blog-post .blog-img .post-meta .read-more:hover {
-      color: #6dc77a !important;
-    }
-    
-    .blog-post .content h1, .blog-post .content h2, .blog-post .content h3, .blog-post .content h4, .blog-post .content h5, .blog-post .content h6 {
-      line-height: 1.2;
-    }
-    
-    .blog-post .content .title {
-      font-size: 18px;
-    }
-    
-    .blog-post .content .title:hover {
-      color: #6dc77a !important;
-    }
-    
-    .blog-post .content .author .name:hover {
-      color: #6dc77a !important;
-    }
-    
-    .blog-post:hover {
-      -webkit-transform: translateY(-7px);
-              transform: translateY(-7px);
-      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-              box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    }
-    
-    .blog-post:hover .blog-img .overlay {
-      opacity: 0.65;
-    }
-    
-    .blog-post:hover .blog-img .post-meta {
-      opacity: 1;
-    }
-    
-    .blog-post .post-meta .like i,
-    .profile-post .like i {
-      -webkit-text-stroke: 2px #dd2427;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .blog-post .post-meta .like:active i, .blog-post .post-meta .like:focus i,
-    .profile-post .like:active i,
-    .profile-post .like:focus i {
-      -webkit-text-stroke: 0px #dd2427;
-      -webkit-text-fill-color: #dd2427;
-    }
-    
-    .avatar.avatar-ex-sm {
-        height: 36px;
-    }
-    .shadow {
-        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
-    }
-    
-    .text-muted {
-        color: #8492a6 !important;
-    }
-    
-    
-    .para-desc {
-        max-width: 600px;
-    }
-    .text-muted {
-        color: #8492a6 !important;
-    }
-    
-    .section-title .title {
-        letter-spacing: 0.5px;
-        font-size: 30px;
-    }
-    
+body {
+  margin-top: 20px;
+  background: #f5f5f5;
+}
+
+.blog-post {
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.blog-post .blog-img .overlay,
+.blog-post .blog-img .post-meta {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.9s ease;
+  transition: all 9s ease;
+}
+
+.blog-post .blog-img .overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.blog-post .blog-img .post-meta {
+  bottom: 5%;
+  right: 5%;
+  z-index: 1;
+}
+
+.blog-post .blog-img .post-meta .read-more:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post .content h1,
+.blog-post .content h2,
+.blog-post .content h3,
+.blog-post .content h4,
+.blog-post .content h5,
+.blog-post .content h6 {
+  line-height: 1.2;
+}
+
+.blog-post .content .title {
+  font-size: 18px;
+}
+
+.blog-post .content .title:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post .content .author .name:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post:hover {
+  -webkit-transform: translateY(-7px);
+  transform: translateY(-7px);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post:hover .blog-img .overlay {
+  opacity: 0.65;
+}
+
+.blog-post:hover .blog-img .post-meta {
+  opacity: 1;
+}
+
+.blog-post .post-meta .like i,
+.profile-post .like i {
+  -webkit-text-stroke: 2px #dd2427;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog-post .post-meta .like:active i,
+.blog-post .post-meta .like:focus i,
+.profile-post .like:active i,
+.profile-post .like:focus i {
+  -webkit-text-stroke: 0px #dd2427;
+  -webkit-text-fill-color: #dd2427;
+}
+
+.avatar.avatar-ex-sm {
+  height: 36px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.text-muted {
+  color: #8492a6 !important;
+}
+
+
+.para-desc {
+  max-width: 600px;
+}
+
+.text-muted {
+  color: #8492a6 !important;
+}
+
+.section-title .title {
+  letter-spacing: 0.5px;
+  font-size: 30px;
+}
+
 /* Add a bounce animation to the chatbot icon */
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-30px);
   }
+
   60% {
     transform: translateY(-15px);
   }
@@ -115,11 +132,13 @@ body{margin-top:20px;
 
 
 .appointment-link {
-    color: #004085 !important; /* Dark blue color */
+  color: #004085 !important;
+  /* Dark blue color */
 }
 
 .dark-blue-link {
-    color: #004085 !important; /* Dark blue color */
+  color: #004085 !important;
+  /* Dark blue color */
 }
 
 .chatbot-icon {
@@ -151,10 +170,11 @@ body{margin-top:20px;
 }
 
 .chat-window {
-  width: 300px; /* Corrected typo here */
+  width: 300px;
+  /* Corrected typo here */
   max-height: 500px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -190,23 +210,25 @@ body{margin-top:20px;
 /* out sevices */
 
 .elementor-section {
-  max-width: 1200px; /* Adjust based on your preference */
+  max-width: 1200px;
+  /* Adjust based on your preference */
   margin: auto;
-  
+
   padding: 20px;
-  background-color: #f9f9f9; /* Light background for the section */
+  background-color: #f9f9f9;
+  /* Light background for the section */
 }
 
 .elementor-widget-container {
   text-align: center;
-  
+
   font-size: 19px;
 }
 
 .pbmit-heading-subheading h4,
 .pbmit-heading-subheading h2 {
   margin: 0;
-  
+
   padding: 10px 0;
 }
 
@@ -217,12 +239,14 @@ body{margin-top:20px;
   padding: 9px;
   font-size: px;
   border-radius: 23px;
-  color: #0e0101; /* Subtitle color */
+  color: #0e0101;
+  /* Subtitle color */
 }
 
 .pbmit-heading-subheading h2 {
   font-size: 2em;
-  color: #333333; /* Title color */
+  color: #333333;
+  /* Title color */
   font-weight: bold;
 }
 
@@ -320,13 +344,15 @@ body{margin-top:20px;
 
 /* Section Container */
 .elementor-container {
-  max-width: 1100px; /* Adjust based on your preference */
+  max-width: 1100px;
+  /* Adjust based on your preference */
   margin: auto;
 }
 
 /* Column Styles */
 .elementor-column {
-  padding: 0 15px; /* Add padding to columns */
+  padding: 0 15px;
+  /* Add padding to columns */
 }
 
 /* Tab Heading Styles */
@@ -365,7 +391,7 @@ body{margin-top:20px;
 .pbmit-tab-list ul li {
   padding: 8px 0;
   /* border-bottom: 1px solid #ccc; */
- 
+
 }
 
 /* Hover Effects */
@@ -405,16 +431,21 @@ body{margin-top:20px;
 
 /* Error Message Styles */
 .error-message {
-  display: none; /* Hidden by default */
-  color: #ff0000; /* Red color for errors */
-  margin-left: 10px; /* Space between the list item text and the error message */
-  font-size: 0.9em; /* Smaller font size for the error message */
+  display: none;
+  /* Hidden by default */
+  color: #ff0000;
+  /* Red color for errors */
+  margin-left: 10px;
+  /* Space between the list item text and the error message */
+  font-size: 0.9em;
+  /* Smaller font size for the error message */
 }
 
 /* List Item Error Indicator */
 .pbmit-tab-list ul li {
   position: relative;
-  padding-right: 20px; /* Ensure there's space for an error icon or text */
+  padding-right: 20px;
+  /* Ensure there's space for an error icon or text */
 }
 
 .pbmit-tab-list ul li.error::after {
@@ -422,36 +453,38 @@ body{margin-top:20px;
   position: absolute;
   right: 0;
   top: 0;
-  color: #ff0000; /* Red color to indicate an error */
+  color: #ff0000;
+  /* Red color to indicate an error */
   font-weight: bold;
 }
 
 /* Enhances the visual feedback for clickable tabs */
-.pbmit-tab-link:focus, .pbmit-tab-link:active {
-outline: none;
-box-shadow: 0 0 0 2px #0056b3;
+.pbmit-tab-link:focus,
+.pbmit-tab-link:active {
+  outline: none;
+  box-shadow: 0 0 0 2px #0056b3;
 }
 
 /* Styles for error messages to make them more noticeable */
 .error-message {
-display: inline-block;
-background-color: #ffdddd;
-border-left: 4px solid #ff0000;
-padding: 5px;
-border-radius: 5px;
-margin-left: 10px;
-font-size: 0.8em;
+  display: inline-block;
+  background-color: #ffdddd;
+  border-left: 4px solid #ff0000;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 0.8em;
 }
 
 /* Adjust the style of images within tabs for better visual appeal */
 .pbmit-tab-img img {
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 /* Slightly enlarges the image on hover for a subtle interactive effect */
 .pbmit-tab-img img:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 
@@ -461,261 +494,272 @@ transform: scale(1.05);
 
 
 /* our services */
-   /* General Styles */
-   .elementor-section {
-    max-width: 1200px; /* Adjust based on your preference */
-    margin: auto;
-    border-radius: 28px;
-    padding: 20px;
-    background-color: rgb(51 105 201 / 60%);
-  }
- 
+/* General Styles */
+.elementor-section {
+  max-width: 1200px;
+  /* Adjust based on your preference */
+  margin: auto;
+  border-radius: 28px;
+  padding: 20px;
+  background-color: rgb(51 105 201 / 60%);
+}
 
-  .elementor-widget-container {
-    text-align: center;
-    
-    font-size: 19px;
-  }
 
-  .pbmit-heading-subheading h4,
-  .pbmit-heading-subheading h2 {
-    margin: 10;
-    
-    padding: 19px 0;
-  }
+.elementor-widget-container {
+  text-align: center;
 
-  .pbmit-heading-subheading h4 {
-    font-size: 1.2em;
-    
-    display: inline;
+  font-size: 19px;
+}
 
-    padding: 9px;
-    font-size: 29px;
-    border-radius: 23px;
-  }
+.pbmit-heading-subheading h4,
+.pbmit-heading-subheading h2 {
+  margin: 10;
 
-  .pbmit-heading-subheading h2 {
-    font-size: 2em;
-    /* color: #333333;  */
-    font-weight: bold;
-  }
+  padding: 19px 0;
+}
 
-  /* Tab Styles */
-  .pbmit-tabs {
-    margin-top: 20px;
-  }
+.pbmit-heading-subheading h4 {
+  font-size: 1.2em;
 
+  display: inline;
+
+  padding: 9px;
+  font-size: 29px;
+  border-radius: 23px;
+}
+
+.pbmit-heading-subheading h2 {
+  font-size: 2em;
+  /* color: #333333;  */
+  font-weight: bold;
+}
+
+/* Tab Styles */
+.pbmit-tabs {
+  margin-top: 20px;
+}
+
+.pbmit-tabs-heading {
+  list-style: none;
+  /* border-radius: 23 9px; */
+  /* background-color: #3369C999; */
+  padding: 0;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  color: white;
+
+  overflow: hidden;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.pbmit-tab-link {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pbmit-tab-link span {
+  margin-right: 5px;
+  border-radius: 25px;
+}
+
+
+.pbmit-tab-link.pbmit-tab-li-active {
+  /* background-color: rgba(82, 218, 37, 0.6); */
+  color: #ffffff;
+  border-radius: 18px;
+}
+
+.pbmit-tab-content-wrapper {
+
+  border-top: none;
+  padding: 20px;
+  border-radius: 28px;
+  background-color: #ffffff;
+}
+
+.pbmit-tab-content {
+  display: none;
+}
+
+.pbmit-tab-content.pbmit-tab-active {
+  display: block;
+}
+
+.pbmit-tab-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pbmit-tab-list {
+  padding: 15px;
+}
+
+.pbmit-tab-list h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+.pbmit-tab-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pbmit-tab-list ul li {
+  padding: 5px 0;
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .pbmit-tabs-heading {
-    list-style: none;
-    /* border-radius: 23 9px; */
-    /* background-color: #3369C999; */
-    padding: 0;
-    display: flex;
-    background-color: transparent;
-    justify-content: space-around;
-    color: white;
-    
-    overflow: hidden;
+    flex-direction: column;
   }
-  *{
-      padding: 0px;
-      margin: 0px;
+
+  .pbmit-tab-content-inner {
+    display: block;
+  }
+
+  .pbmit-tab-img,
+  .pbmit-tab-list {
+    width: 100%;
+  }
+}
+
+/* Additional CSS Styles */
+
+/* Section Container */
+.elementor-container {
+  max-width: 1100px;
+  /* Adjust based on your preference */
+  margin: auto;
+}
+
+/* Column Styles */
+.elementor-column {
+  padding: 0 15px;
+  /* Add padding to columns */
+}
+
+/* Tab Heading Styles */
+.pbmit-tab-link {
+  position: relative;
+}
+
+.pbmit-tab-link span {
+  display: inline-block;
+}
+
+.pbmit-base-icon-black-arrow-1 {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Tab Content Title Styles */
+.pbmit-tab-content-title {
+  font-size: 1.5em;
+
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Tab Content Inner Styles */
+.pbmit-tab-content-inner {
+  margin-top: 28px;
+}
+
+/* List Styles */
+.pbmit-tab-list ul {
+  padding: 10px;
+
+}
+
+.pbmit-tab-list ul li {
+  padding: 8px 0;
+  display: flex;
+
+  color: #0e0303;
+}
+
+/* Hover Effects */
+/* .pbmit-tab-link{
+  background-color: #f0f0f0;
+  
+  /* transition: background-color 0.3s ease; */
+
+
+.pbmit-tab-link.pbmit-tab-li-active {
+  background-color: #fff;
+
+  color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .elementor-column {
+    padding: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .pbmit-tab-link span {
+    display: none;
+  }
+
+  .pbmit-base-icon-black-arrow-1 {
+    display: none;
   }
 
   .pbmit-tab-link {
     padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: flex;
-    border-radius: 25px;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
+}
 
-  .pbmit-tab-link span {
-    margin-right: 5px;
-    border-radius: 25px;
-  }
+/* Error Message Styles */
+.error-message {
+  display: none;
+  /* Hidden by default */
+  color: #ff0000;
+  /* Red color for errors */
+  margin-left: 10px;
+  /* Space between the list item text and the error message */
+  font-size: 0.9em;
+  /* Smaller font size for the error message */
+}
 
- 
-  .pbmit-tab-link.pbmit-tab-li-active {
-    /* background-color: rgba(82, 218, 37, 0.6); */
-    color: #ffffff;
-    border-radius: 18px  ;
-  }
+/* List Item Error Indicator */
+.pbmit-tab-list ul li {
+  position: relative;
+  padding-right: 20px;
+  /* Ensure there's space for an error icon or text */
+}
 
-  .pbmit-tab-content-wrapper {
-   
-    border-top: none;
-    padding: 20px;
-  border-radius: 28px;
-    background-color: #ffffff;
-  }
+.pbmit-tab-list ul li.error::after {
+  content: "!";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ff0000;
+  /* Red color to indicate an error */
+  font-weight: bold;
+}
 
-  .pbmit-tab-content {
-    display: none;
-  }
-
-  .pbmit-tab-content.pbmit-tab-active {
-    display: block;
-  }
-
-  .pbmit-tab-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .pbmit-tab-list {
-    padding: 15px;
-  }
-
-  .pbmit-tab-list h2 {
-    color: #333;
-    font-weight: bold;
-  }
-
-  .pbmit-tab-list ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .pbmit-tab-list ul li {
-    padding: 5px 0;
-    text-align:left;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .pbmit-tabs-heading {
-      flex-direction: column;
-    }
-
-    .pbmit-tab-content-inner {
-      display: block;
-    }
-
-    .pbmit-tab-img,
-    .pbmit-tab-list {
-      width: 100%;
-    }
-  }
-
-  /* Additional CSS Styles */
-
-  /* Section Container */
-  .elementor-container {
-    max-width: 1100px; /* Adjust based on your preference */
-    margin: auto;
-  }
-
-  /* Column Styles */
-  .elementor-column {
-    padding: 0 15px; /* Add padding to columns */
-  }
-
-  /* Tab Heading Styles */
-  .pbmit-tab-link {
-    position: relative;
-  }
-
-  .pbmit-tab-link span {
-    display: inline-block;
-  }
-
-  .pbmit-base-icon-black-arrow-1 {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  /* Tab Content Title Styles */
-  .pbmit-tab-content-title {
-    font-size: 1.5em;
-       
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  /* Tab Content Inner Styles */
-  .pbmit-tab-content-inner {
-    margin-top: 28px;
-  }
-
-  /* List Styles */
-  .pbmit-tab-list ul {
-    padding: 10px ;
-   
-  }
-
-  .pbmit-tab-list ul li {
-    padding: 8px 0;
-    display: flex;
-   
-    color: #0e0303;
-  }
-
-  /* Hover Effects */
-  /* .pbmit-tab-link{
-    background-color: #f0f0f0;
-    
-    /* transition: background-color 0.3s ease; */
-
-
-  .pbmit-tab-link.pbmit-tab-li-active {
-    background-color: #fff;
-    
-    color: #333;
-  }
-
-  /* Responsive Adjustments */
-  @media (max-width: 992px) {
-    .elementor-column {
-      padding: 0;
-    }
-  }
-
-  @media (max-width: 300px) {
-    .pbmit-tab-link span {
-      display: none;
-    }
-
-    .pbmit-base-icon-black-arrow-1 {
-      display: none;
-    }
-
-    .pbmit-tab-link {
-      padding: 10px 20px;
-      text-align: center;
-    }
-  }
-
-  /* Error Message Styles */
-  .error-message {
-    display: none; /* Hidden by default */
-    color: #ff0000; /* Red color for errors */
-    margin-left: 10px; /* Space between the list item text and the error message */
-    font-size: 0.9em; /* Smaller font size for the error message */
-  }
-
-  /* List Item Error Indicator */
-  .pbmit-tab-list ul li {
-    position: relative;
-    padding-right: 20px; /* Ensure there's space for an error icon or text */
-  }
-
-  .pbmit-tab-list ul li.error::after {
-    content: "!";
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #ff0000; /* Red color to indicate an error */
-    font-weight: bold;
-  }
-
-  /* Enhances the visual feedback for clickable tabs */
-.pbmit-tab-link:focus, .pbmit-tab-link:active {
+/* Enhances the visual feedback for clickable tabs */
+.pbmit-tab-link:focus,
+.pbmit-tab-link:active {
   outline: none;
 }
 
@@ -732,7 +776,7 @@ transform: scale(1.05);
 
 /* Adjust the style of images within tabs for better visual appeal */
 .pbmit-tab-img img {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -745,71 +789,89 @@ transform: scale(1.05);
 
 
 
-.main-logo{
+.main-logo {
   height: 48px;
 }
+
 .pbmit-marquee-effect-section {
   overflow: hidden;
   position: relative;
   margin: 26px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Adds shadow for depth */
-  border-radius: 10px; /* Rounds the corners */
-  background-color: #f9f9f9; /* Light background color */
+  border-radius: 10px;
+  /* Rounds the corners */
+  background-color: #f9f9f9;
+  /* Light background color */
 }
 
 .pbmit-marquee-container {
   display: flex;
   animation: marqueeAnimation 40s linear infinite;
-  align-items: center; /* Centers items vertically */
+  align-items: center;
+  /* Centers items vertically */
 }
 
 @keyframes marqueeAnimation {
-  from { transform: translateX(100%); }
-  to { transform: translateX(-100%); }
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .pbmit-ele {
   flex-shrink: 0;
   white-space: nowrap;
-  padding: 0 2rem; /* Adjusted for visual spacing */
-  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  padding: 0 2rem;
+  /* Adjusted for visual spacing */
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
 }
 
 .pbmit-ele:hover {
-  transform: scale(1.05); /* Slightly enlarges the article on hover */
-  z-index: 2; 
+  transform: scale(1.05);
+  /* Slightly enlarges the article on hover */
+  z-index: 2;
 }
 
 .pbmit-element-title {
-  font-size: 65px; /* Adjust based on preference */
+  font-size: 65px;
+  /* Adjust based on preference */
   font-weight: bold;
-  display:flex;
-  color: #6c769d; /* Darker text color for better readability */
-  text-shadow: 1px 1px 4px rgba(89, 134, 180, 0.2); /* Text shadow for depth */
+  display: flex;
+  color: #6c769d;
+  /* Darker text color for better readability */
+  text-shadow: 1px 1px 4px rgba(89, 134, 180, 0.2);
+  /* Text shadow for depth */
 }
 
 /* Custom styling for the tag wrapper to improve aesthetics */
 .pbmit-tag-wrapper {
-  padding: 10px 0; /* Adds vertical padding */
-  margin: 0 5px; /* Adds spacing between each marquee item */
-  background-color: rgba(255,255,255,0.8); 
-  border-radius: 5px; /* Rounds the corners of the tag wrapper */
+  padding: 10px 0;
+  /* Adds vertical padding */
+  margin: 0 5px;
+  /* Adds spacing between each marquee item */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  /* Rounds the corners of the tag wrapper */
 }
 
-.list-unstyled{
+.list-unstyled {
   font-size: 20px;
-  
+
 }
 
-.list-unstyled li a{ 
+.list-unstyled li a {
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 
 /* our services */
-.ourservices{
+.ourservices {
   height: 32px;
 
 
@@ -819,12 +881,13 @@ transform: scale(1.05);
 
 
 /* internal css*/
- 
+
 /* happy client */
 
 .pbmit-element-subtitle {
   font-size: 1.25rem;
   color: #666;
+  text-align: center;
 }
 
 /* Testimonials Grid */
@@ -834,11 +897,12 @@ transform: scale(1.05);
 
 }
 
+
 .pbmit-ele-testimonial {
   flex: 0 1 calc(33.333% - 20px);
   /* background: #f9f9f9; */
   border: 1px solid #ddd;
-  box-shadow: 2px 0px  4px rgb(219, 205, 205);
+  box-shadow: 2px 0px 4px rgb(219, 205, 205);
   padding: 20px;
   background-color: transparent;
   border-radius: 26px;
@@ -846,6 +910,7 @@ transform: scale(1.05);
 
 .pbmit-box-content-wrap {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -865,24 +930,31 @@ transform: scale(1.05);
 }
 
 .pbminfotech-testimonial-box {
-font-style: italic;
+  font-style: italic;
 
-padding: 23px;
-display: block; /* Changed to block to better handle the box model */
-position: relative;
-/* Making the width responsive */
-margin: 0 auto; /* Centering the box */
-box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adding a subtle shadow to create a "lifted" effect */
-background-color: #f9f9f9; /* A light background to distinguish the testimonial */
-border-left: 4px solid #007bff; /* A colored border on the left for some visual flair */
+  padding: 23px;
+  display: block;
+  /* Changed to block to better handle the box model */
+  position: relative;
+  /* Making the width responsive */
+  margin: 0 auto;
+  /* Centering the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Adding a subtle shadow to create a "lifted" effect */
+  background-color: #f9f9f9;
+  /* A light background to distinguish the testimonial */
+  border-left: 4px solid #007bff;
+  /* A colored border on the left for some visual flair */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-.pbminfotech-testimonial-box {
-    max-width: 95%; /* Allowing more width on smaller screens */
-    padding: 15px; /* Adjusting padding for smaller screens */
-}
+  .pbminfotech-testimonial-box {
+    max-width: 95%;
+    /* Allowing more width on smaller screens */
+    padding: 15px;
+    /* Adjusting padding for smaller screens */
+  }
 }
 
 
@@ -891,7 +963,8 @@ border-left: 4px solid #007bff; /* A colored border on the left for some visual 
 }
 
 .pbmit-base-icon-star-1 {
-  color: #ffd700; /* Gold color for stars */
+  color: #ffd700;
+  /* Gold color for stars */
 }
 
 /* Responsiveness */
@@ -902,29 +975,35 @@ border-left: 4px solid #007bff; /* A colored border on the left for some visual 
 }
 
 /* @media (max-width: 480px) {
-  .pbmit-ele-testimonial {
-    flex: 0 1 100%;
-  }
+.pbmit-ele-testimonial {
+  flex: 0 1 100%;
+}
 
-  .pbmit-element-title,
-  .pbmit-element-subtitle {
-    font-size: 1.5rem;
-  }
+.pbmit-element-title,
+.pbmit-element-subtitle {
+  font-size: 1.5rem;
+}
 } */
 /* Container that needs scrolling */
 .pbmit-element-posts-wrapper {
   /* Enable scrolling if necessary */
-  overflow-y: auto; /* Vertical scrolling */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  max-height: 600px; /* Adjust based on your needs */
-  scrollbar-width: thin; /* For Firefox */
+  overflow-y: auto;
+  /* Vertical scrolling */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  max-height: 600px;
+  /* Adjust based on your needs */
+  scrollbar-width: thin;
+  /* For Firefox */
   scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
 }
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
@@ -935,3 +1014,20 @@ border-left: 4px solid #007bff; /* A colored border on the left for some visual 
   animation: slideInFromLeft 1s ease-out;
 }
 
+.imagemain {
+  height: 720px;
+  box-shadow: 2px 4px 6px rgb(207, 22, 22);
+  opacity: 0.5;
+}
+
+
+
+/* media query */
+@media (max-width:475px) {
+  .imagemain {
+    height: 554px;
+    box-shadow: 2px 4px 6px rgb(207, 22, 22);
+    opacity: 0.5;
+  }
+
+}
