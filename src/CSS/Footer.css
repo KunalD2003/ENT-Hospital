@@ -166,14 +166,14 @@
     }
 }
 
-@media (max-width: 346px) {
+@media (max-width: 375px) {
     .footer-class {
         padding-left: 0rem;
         padding-right: 0rem;
     }
     .rest-section{
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
+        padding-left: 4.2rem;
+        padding-right: 4rem;
     }
     .rest-section ul {
         text-align: center;
@@ -186,8 +186,23 @@
         margin-bottom: 0.5rem;
         /* Adjust margin as needed */
     }
-
+    .column-link{
+        font-size: 1rem;
+    }
     .column-heading {
         text-align: center;
+    }
+    .footer-logo-img{
+        margin: auto;
+    }
+    .footer-minipara {
+        text-align: center;
+        width: 100%;
+    }
+    .copyright-div {
+        text-align: center;
+    }
+    .social-container{
+        justify-content: center;
     }
 }
