@@ -165,7 +165,24 @@
         width: 16.666667%;
     }
 }
-
+@media (max-width: 1094px){
+    .column-link{
+        font-size: 1rem;
+    }
+    .contact-icon{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1025px){
+    .rest-section{
+        padding-left: 1.5rem;
+    }
+}
+@media (max-width: 411px){
+    .footer-class{
+        padding-right: 1rem;
+    }
+}
 @media (max-width: 375px) {
     .footer-class {
         padding-left: 0rem;
@@ -186,9 +203,6 @@
         /* Ensures list items are displayed inline */
         margin-bottom: 0.5rem;
         /* Adjust margin as needed */
-    }
-    .column-link{
-        font-size: 1rem;
     }
     .column-heading {
         text-align: center;
